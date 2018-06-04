@@ -1,0 +1,68 @@
+insert into FESTIVAL VALUES (sq_festival_no.NEXTVAL,'부곡온천 축제','경남 창녕군 부곡면 온천중앙로 77 ',
+TO_DATE('18/04/04','YY/MM/DD'),TO_DATE('18/04/08','YY/MM/DD'),'부곡온천');
+insert into FESTIVAL VALUES (sq_festival_no.NEXTVAL,'군포철쭉축제','군포시 철쭉 동산 앞 노차로드',
+TO_DATE('18/04/28','YY/MM/DD'),TO_DATE('18/04/29','YY/MM/DD'),'군포시');
+insert into FESTIVAL VALUES (sq_festival_no.NEXTVAL,'동대문 봄꽃축제','중랑천 제1체육공원',TO_DATE('18/04/07','YY/MM/DD'),
+TO_DATE('18/04/08','YY/MM/DD'),'동대문구청');
+insert into FESTIVAL VALUES (sq_festival_no.NEXTVAL,'코엑스 eat the seoul','서울 코엑스 동측광장',TO_DATE('17/12/15','YY/MM/DD'),
+TO_DATE('17/12/31','YY/MM/DD'),'(주)그리드잇, 코엑스');
+
+insert into FESTIVAL VALUES (sq_festival_no.NEXTVAL,'한강 푸드트럭 100','반포 한강공원 달빛광장',TO_DATE('17/07/23','YY/MM/DD'), TO_DATE
+('17/08/20','YY/MM/DD'),'오니트(주), (주)컬처웨이');
+
+insert into FESTIVAL VALUES (sq_festival_no.NEXTVAL,'밤도깨비 야시장 @여의도','여의도한강공원 물빛광장',TO_DATE('18/03/30','YY/MM/DD'), TO_DATE
+('18/10/28','YY/MM/DD'),'오니트(주)');
+
+insert into FESTIVAL VALUES (sq_festival_no.NEXTVAL,'밤도깨비 야시장 @반포','반포한강공원 달빛광장',TO_DATE('18/03/30','YY/MM/DD'), TO_DATE
+('18/10/28','YY/MM/DD'),'오니트(주)');
+
+insert into FESTIVAL VALUES (sq_festival_no.NEXTVAL,'밤도깨비 야시장 @DDP','동대문디자인플라자',TO_DATE('18/03/30','YY/MM/DD'), TO_DATE
+('18/10/28','YY/MM/DD'),'오니트(주)');
+
+insert into FESTIVAL VALUES (sq_festival_no.NEXTVAL,'밤도깨비 야시장 @청계천','청계천 광통교 일대',TO_DATE('18/03/30','YY/MM/DD'), TO_DATE
+('18/10/28','YY/MM/DD'),'오니트(주)');
+
+insert into FESTIVAL VALUES (sq_festival_no.NEXTVAL,'밤도깨비 야시장 @문화비축기지','문화비축기지',TO_DATE('18/03/30','YY/MM/DD'), TO_DATE
+('18/10/28','YY/MM/DD'),'오니트(주)');
+
+
+
+
+
+
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '밤도깨비 야시장 @문화비축기지'),'밤도깨비_문화비축기지_1.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '밤도깨비 야시장 @문화비축기지'),'밤도깨비_문화비축기지_2.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '밤도깨비 야시장 @문화비축기지'),'밤도깨비_문화비축기지_3.jpg'  );
+
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '밤도깨비 야시장 @청계천'),'밤도깨비_청계천_1.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '밤도깨비 야시장 @청계천'),'밤도깨비_청계천_2.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '밤도깨비 야시장 @청계천'),'밤도깨비_청계천_3.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '밤도깨비 야시장 @청계천'),'밤도깨비_청계천_4.jpg'  );
+
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '밤도깨비 야시장 @DDP'),'밤도깨비_동대문_1.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '밤도깨비 야시장 @DDP'),'밤도깨비_동대문_2.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '밤도깨비 야시장 @DDP'),'밤도깨비_동대문_3.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '밤도깨비 야시장 @DDP'),'밤도깨비_동대문_4.jpg'  );
+
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '밤도깨비 야시장 @반포'),'밤도깨비_반포_1.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '밤도깨비 야시장 @반포'),'밤도깨비_반포_2.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '밤도깨비 야시장 @반포'),'밤도깨비_반포_3.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '밤도깨비 야시장 @반포'),'밤도깨비_반포_4.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '밤도깨비 야시장 @반포'),'밤도깨비_반포_5.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '밤도깨비 야시장 @반포'),'밤도깨비_반포_6.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '밤도깨비 야시장 @반포'),'밤도깨비_반포_7.jpg'  );
+
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '한강 푸드트럭 100'),'한강_푸드트럭_100_1.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '한강 푸드트럭 100'),'한강_푸드트럭_100_2.png'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '한강 푸드트럭 100'),'한강_푸드트럭_100_3.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '한강 푸드트럭 100'),'한강_푸드트럭_100_4.jpg'  );
+
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '코엑스 eat the seoul'),'Eat_The_Seoul_1.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '코엑스 eat the seoul'),'Eat_The_Seoul_2.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '코엑스 eat the seoul'),'Eat_The_Seoul_3.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '코엑스 eat the seoul'),'Eat_The_Seoul_4.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '코엑스 eat the seoul'),'Eat_The_Seoul_5.jpg'  );
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '코엑스 eat the seoul'),'Eat_The_Seoul_6.jpg'  );
+
+
+insert into FESTIVAL_IMAGE VALUES( (SELECT FESTIVAL_NO FROM FESTIVAL WHERE FESTIVAL_NAME = '부곡온천 축제'),'부곡온천.jpg'  );
